@@ -10,15 +10,21 @@
       Nulla rhoncus ex a augue egestas gravida.
       Etiam eleifend consequat diam, id faucibus erat accumsan eu. </p>
   </div>
-  <div class="d-grid col-6 gap-2 mx-auto">
-    <a class="btn btn-danger btn-lg" type="button" href="/play">Enter</a>
-  </div>
+
 
 </template>
 
 <script>
 /* eslint-disable */
 export default {
-  name: 'HelloRobotsComponent',
+  name: 'PlayComponent',
+  data() {
+    return {
+      hmm: "wow!",
+    }
+  },
+  methods: {
+
+  },
 }
 </script>

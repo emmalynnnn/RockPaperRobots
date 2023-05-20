@@ -1,0 +1,27 @@
+html, .back {
+    background: url("background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    font-family: Impact, monospace;
+    letter-spacing: 3px;
+}
+
+p {
+    padding-left: 5pt;
+    padding-right: 5pt;
+    text-align: center;
+}
+
+.button {
+    margin: auto;
+    color: aquamarine;
+}
