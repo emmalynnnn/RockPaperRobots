@@ -13,6 +13,8 @@ Built by Emma Lynn
 * Run `yarn serve` to run the application
 * Navigate the `localhost:8080` in your web browser
 
+<img src="src/assets/robot.png"/>
+
 ## About:
 * Built using the `VueJS` framework
 
