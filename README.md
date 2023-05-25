@@ -11,6 +11,7 @@ Built by Emma Lynn
 * Navigate into the directory from your command line
 * Run `yarn install` to install the required dependencies
 * Run `yarn serve` to run the application
+* Navigate the `localhost:8080` in your web browser
 
 ## About:
 * Built using the `VueJS` framework
