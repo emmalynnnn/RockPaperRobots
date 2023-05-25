@@ -11,7 +11,7 @@ Built by Emma Lynn
 * Navigate into the directory from your command line
 * Run `yarn install` to install the required dependencies
 * Run `yarn serve` to run the application
-* Navigate the `localhost:8080` in your web browser
+* Navigate to `localhost:8080` in your web browser
 
 <img src="src/assets/robot.png"/>
 
@@ -47,4 +47,4 @@ Built by Emma Lynn
 * Rock: https://pixabay.com/vectors/rock-boulder-stone-nature-granite-576669/
 * Paper: http://t3.gstatic.com/images?q=tbn:ANd9GcTbVA5n-7UhbptN_fWPM4kqlfvwn_9yk151cylRtBL4mjaPwHAG
 * Scissors: https://pixabay.com/vectors/scissors-red-tool-cut-office-297776/
-* Favicon: https://robohash.org/hmm.ico
+* Favicon & README image: https://robohash.org/hmm.ico
