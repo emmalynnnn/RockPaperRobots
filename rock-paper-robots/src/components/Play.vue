@@ -6,7 +6,7 @@
       <div class="column">
         <h2>Robot</h2>
         <p>Wins: {{roboWins}}</p>
-        <img class="icon" src="../assets/robohash.png" alt="Robot">
+        <img class="icon" :src="robotUrl" alt="Robot">
         <p>"Let's play 2 out of three."</p>
 
         <img v-if="roboChoice === 1" class="choice" src="../assets/rock.webp" alt="Rock">
@@ -17,7 +17,7 @@
       <div class="column">
         <h2>You</h2>
         <p>Wins: {{yourWins}}</p>
-        <img class="icon" src="../assets/you.png" alt="You">
+        <img class="icon" :src="youUrl" alt="You">
         <p>"Bring it on!"</p>
 
         <div v-if="timeToPlay" class="form-check">
@@ -61,7 +61,20 @@ export default {
       result: "",
       yourWins: 0,
       roboWins: 0,
+      robotUrl: "",
+      youUrl: "",
     }
+  },
+  created() {
+    let date = Date.now();
+    fetch('https://api.ipify.org?format=json')
+        .then(response => response.json())
+        .then(response => {
+          let clientIp = response.ip;
+          //this.youUrl = `https://robohash.org/${clientIp}yy5?set=set5`;
+          this.youUrl = `https://api.dicebear.com/6.x/adventurer/svg?seed=${clientIp}`;
+          this.robotUrl = `https://robohash.org/${date}`;
+        });
   },
   methods: {
     getInput() {
