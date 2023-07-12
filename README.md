@@ -9,7 +9,7 @@ Built by Emma Lynn
 ## Quickstart:
 * Clone the repository to your machine
 * Navigate into the directory from your command line
-* Run `yarn install` to install the required dependencies
+* Run `yarn install` to install the required dependencies (or `npm install`, if you prefer)
 * Run `yarn serve` to run the application
 * Navigate to `localhost:8080` in your web browser
 
@@ -19,7 +19,7 @@ Built by Emma Lynn
 * Built using the `VueJS` framework
 
 ### Coming Soon:
-* A record of your wins/loses and the tasks you've completed
+* A record of your wins/loses and the tasks you've completed (using a relational database!)
 * Customize your avatar
 * More cruel and unusual tasks as consequences for losing
 * Improved mobile functionality

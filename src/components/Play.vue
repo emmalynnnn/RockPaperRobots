@@ -7,7 +7,7 @@
         <h2>Robot</h2>
         <p>Wins: {{roboWins}}</p>
         <img class="icon" :src="robotUrl" alt="Robot">
-        <p>"Let's play 2 out of three."</p>
+        <p>"Let's play two out of three."</p>
 
         <img v-if="roboChoice === 1" class="choice" src="../assets/rock.webp" alt="Rock">
         <img v-else-if="roboChoice === 2" class="choice" src="../assets/paper.jpg" alt="Paper">
